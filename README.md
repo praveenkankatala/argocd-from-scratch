@@ -89,36 +89,36 @@ kubectl apply -f guestbook-app.yaml   # Argo CD takes it from here
 | # | Topic | Chapter |
 |---|-------|---------|
 | 1 | Why Argo CD? Push vs Pull | [Foundations](argocd-notes/docs/01-foundations.md) |
-| 2 | State reconciliation & the three engines | [Foundations](docs/01-foundations.md) |
-| 3 | The three core components | [Architecture](docs/02-architecture-and-internals.md) |
-| 4 | The reconciliation loop | [Architecture](docs/02-architecture-and-internals.md) |
-| 5 | gRPC, HA & leader election | [Architecture](docs/02-architecture-and-internals.md) |
-| 6 | The dashboard & the inspector | [Dashboard & CLI](docs/03-dashboard-and-cli.md) |
-| 7 | The CLI workflow (login → rollback) | [Dashboard & CLI](docs/03-dashboard-and-cli.md) |
-| 8 | The Application CRD (the engine) | [Application & AppProject](docs/04-application-and-appproject.md) |
-| 9 | The AppProject (the guardrails) | [Application & AppProject](docs/04-application-and-appproject.md) |
-| 10 | Finalizers & blast-radius control | [Application & AppProject](docs/04-application-and-appproject.md) |
-| 11 | The sync operation in detail | [Sync, Diff & Drift](docs/05-sync-diff-and-drift.md) |
-| 12 | Manual vs automated sync | [Sync, Diff & Drift](docs/05-sync-diff-and-drift.md) |
-| 13 | Self-heal & `ignoreDifferences` | [Sync, Diff & Drift](docs/05-sync-diff-and-drift.md) |
-| 14 | Diff strategies (SSA, resource tracking) | [Sync, Diff & Drift](docs/05-sync-diff-and-drift.md) |
-| 15 | Orphaned resources | [Sync, Diff & Drift](docs/05-sync-diff-and-drift.md) |
-| 16 | Repositories & clusters | [Configuration & Security](docs/06-configuration-and-security.md) |
-| 17 | Certificates & accounts (SSO/Dex) | [Configuration & Security](docs/06-configuration-and-security.md) |
-| 18 | `argocd-cm` vs `argocd-secret` | [Configuration & Security](docs/06-configuration-and-security.md) |
-| 19 | RBAC with Casbin | [Configuration & Security](docs/06-configuration-and-security.md) |
-| 20 | Argo CD behind an API gateway | [Networking & Gateway API](docs/07-networking-and-gateway.md) |
-| 21 | Ingress vs Gateway API | [Networking & Gateway API](docs/07-networking-and-gateway.md) |
-| 22 | Envoy Gateway lab | [Networking & Gateway API](docs/07-networking-and-gateway.md) |
-| 23 | Deploying Helm charts | [Packaging & Repo Structure](docs/08-packaging-and-repo-structure.md) |
-| 24 | Mastering the monorepo | [Packaging & Repo Structure](docs/08-packaging-and-repo-structure.md) |
-| 25 | ApplicationSets | [Packaging & Repo Structure](docs/08-packaging-and-repo-structure.md) |
-| 26 | Secrets management (Sealed / ESO) | [Advanced Pillars](docs/09-advanced-pillars.md) |
-| 27 | Multi-cluster deployments | [Advanced Pillars](docs/09-advanced-pillars.md) |
-| 28 | Progressive delivery (Argo Rollouts) | [Advanced Pillars](docs/09-advanced-pillars.md) |
-| 29 | Image Updater & notifications | [Advanced Pillars](docs/09-advanced-pillars.md) |
-| 30 | Sync waves & hooks (deep dive) | [Sync Waves & Hooks](deep-dives/01-sync-waves-and-hooks.md) |
-| 31 | Production ops & troubleshooting (deep dive) | [Production Operations](deep-dives/02-production-operations-and-troubleshooting.md) |
+| 2 | State reconciliation & the three engines | [Foundations](argocd-notes/docs/01-foundations.md) |
+| 3 | The three core components | [Architecture](argocd-notes/docs/02-architecture-and-internals.md) |
+| 4 | The reconciliation loop | [Architecture](argocd-notes/docs/02-architecture-and-internals.md) |
+| 5 | gRPC, HA & leader election | [Architecture](argocd-notes/docs/02-architecture-and-internals.md) |
+| 6 | The dashboard & the inspector | [Dashboard & CLI](argocd-notes/docs/03-dashboard-and-cli.md) |
+| 7 | The CLI workflow (login → rollback) | [Dashboard & CLI](argocd-notes/docs/03-dashboard-and-cli.md) |
+| 8 | The Application CRD (the engine) | [Application & AppProject](argocd-notes/docs/04-application-and-appproject.md) |
+| 9 | The AppProject (the guardrails) | [Application & AppProject](argocd-notes/docs/04-application-and-appproject.md) |
+| 10 | Finalizers & blast-radius control | [Application & AppProject](argocd-notes/docs/04-application-and-appproject.md) |
+| 11 | The sync operation in detail | [Sync, Diff & Drift](argocd-notes/docs/05-sync-diff-and-drift.md) |
+| 12 | Manual vs automated sync | [Sync, Diff & Drift](argocd-notes/docs/05-sync-diff-and-drift.md) |
+| 13 | Self-heal & `ignoreDifferences` | [Sync, Diff & Drift](argocd-notes/docs/05-sync-diff-and-drift.md) |
+| 14 | Diff strategies (SSA, resource tracking) | [Sync, Diff & Drift](argocd-notes/docs/05-sync-diff-and-drift.md) |
+| 15 | Orphaned resources | [Sync, Diff & Drift](argocd-notes/docs/05-sync-diff-and-drift.md) |
+| 16 | Repositories & clusters | [Configuration & Security](argocd-notes/docs/06-configuration-and-security.md) |
+| 17 | Certificates & accounts (SSO/Dex) | [Configuration & Security](argocd-notes/docs/06-configuration-and-security.md) |
+| 18 | `argocd-cm` vs `argocd-secret` | [Configuration & Security](argocd-notes/docs/06-configuration-and-security.md) |
+| 19 | RBAC with Casbin | [Configuration & Security](argocd-notes/docs/06-configuration-and-security.md) |
+| 20 | Argo CD behind an API gateway | [Networking & Gateway API](argocd-notes/docs/07-networking-and-gateway.md) |
+| 21 | Ingress vs Gateway API | [Networking & Gateway API](argocd-notes/docs/07-networking-and-gateway.md) |
+| 22 | Envoy Gateway lab | [Networking & Gateway API](argocd-notes/docs/07-networking-and-gateway.md) |
+| 23 | Deploying Helm charts | [Packaging & Repo Structure](argocd-notes/docs/08-packaging-and-repo-structure.md) |
+| 24 | Mastering the monorepo | [Packaging & Repo Structure](argocd-notes/docs/08-packaging-and-repo-structure.md) |
+| 25 | ApplicationSets | [Packaging & Repo Structure](argocd-notes/docs/08-packaging-and-repo-structure.md) |
+| 26 | Secrets management (Sealed / ESO) | [Advanced Pillars](argocd-notes/docs/09-advanced-pillars.md) |
+| 27 | Multi-cluster deployments | [Advanced Pillars](argocd-notes/docs/09-advanced-pillars.md) |
+| 28 | Progressive delivery (Argo Rollouts) | [Advanced Pillars](argocd-notes/docs/09-advanced-pillars.md) |
+| 29 | Image Updater & notifications | [Advanced Pillars](argocd-notes/docs/09-advanced-pillars.md) |
+| 30 | Sync waves & hooks (deep dive) | [Sync Waves & Hooks](argocd-notes/deep-dives/01-sync-waves-and-hooks.md) |
+| 31 | Production ops & troubleshooting (deep dive) | [Production Operations](argocd-notes/deep-dives/02-production-operations-and-troubleshooting.md) |
 
 📄 **Start reading → [docs/01-foundations.md](docs/01-foundations.md)**
 
