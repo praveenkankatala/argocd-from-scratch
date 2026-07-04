@@ -88,7 +88,7 @@ kubectl apply -f guestbook-app.yaml   # Argo CD takes it from here
 
 | # | Topic | Chapter |
 |---|-------|---------|
-| 1 | Why Argo CD? Push vs Pull | [Foundations](docs/01-foundations.md) |
+| 1 | Why Argo CD? Push vs Pull | [Foundations](argocd-notes/docs/01-foundations.md) |
 | 2 | State reconciliation & the three engines | [Foundations](docs/01-foundations.md) |
 | 3 | The three core components | [Architecture](docs/02-architecture-and-internals.md) |
 | 4 | The reconciliation loop | [Architecture](docs/02-architecture-and-internals.md) |
